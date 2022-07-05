@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 260px;
+  justify-content: space-between;
+}
+
+.form__input {
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.form__button {
+  background-color: #4285F4;
+  border: none;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.form__select {
+  margin-top: 20px;
+}
